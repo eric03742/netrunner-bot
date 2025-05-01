@@ -1,0 +1,39 @@
+{
+  "name": "koishi-plugin-netrunner-bot",
+  "version": "0.0.1",
+  "description": "《矩阵潜袭》群聊机器人",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "type": "module",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric03742/netrunner-bot.git"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "author": {
+    "name": "Eric03742",
+    "email": "eric03742@foxmail.com",
+    "url": "https://github.com/eric03742"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eric03742/netrunner-entities/issues"
+  },
+  "homepage": "https://github.com/eric03742/netrunner-entities#readme",
+  "engines": {
+    "node": ">= 22.11 < 23"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.7"
+  }
+}
