@@ -1,10 +1,9 @@
 {
   "name": "koishi-plugin-netrunner-bot",
-  "version": "0.0.1",
-  "description": "《矩阵潜袭》群聊机器人",
+  "version": "0.0.4",
+  "description": "《矩阵潜袭》QQ群聊机器人，Koishi平台插件",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "type": "module",
   "files": [
     "lib",
     "dist"
@@ -29,14 +28,18 @@
     "url": "https://github.com/eric03742/netrunner-entities/issues"
   },
   "homepage": "https://github.com/eric03742/netrunner-entities#readme",
-  "engines": {
-    "node": ">= 22.11 < 23"
-  },
   "peerDependencies": {
     "koishi": "^4.18.7"
   },
+  "koishi": {
+    "description": {
+      "en": "A QQ group chat bot providing functionalities on Netrunner",
+      "zh": "《矩阵潜袭》QQ群聊机器人"
+    },
+    "preview": true
+  },
   "dependencies": {
-    "@eric03742/netrunner-entities": "^1.0.0",
+    "@eric03742/netrunner-entities": "^1.0.1",
     "better-sqlite3": "^11.9.1",
     "reflect-metadata": "^0.2.2",
     "typeorm": "^0.3.22"
