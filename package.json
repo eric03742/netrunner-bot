@@ -10,15 +10,28 @@
   ],
   "license": "MIT",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eric03742/netrunner-bot.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
-  "devDependencies": {
-    "@koishijs/plugin-adapter-qq": "4.10.0"
+  "author": {
+    "name": "Eric03742",
+    "email": "eric03742@foxmail.com",
+    "url": "https://github.com/eric03742"
   },
+  "devDependencies": {},
   "peerDependencies": {
     "koishi": "4.18.8"
+  },
+  "koishi": {
+    "description": {
+      "en": "A QQ group chat bot providing functionalities on Netrunner",
+      "zh": "《矩阵潜袭》QQ群聊机器人"
+    }
   }
 }
